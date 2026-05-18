@@ -274,7 +274,7 @@ fun UnitToggle(isSelected: Boolean, onSelectedChange: (Boolean) -> Unit, option1
         }
         Box(
             modifier = Modifier
-                .background(!isSelected) AccentPrimary else Color.Transparent, RoundedCornerShape(50.dp))
+                .background(if (!isSelected) AccentPrimary else Color.Transparent, RoundedCornerShape(50.dp))
                 .clickable { onSelectedChange(false) }
                 .padding(horizontal = 12.dp, vertical = 4.dp)
         ) {
