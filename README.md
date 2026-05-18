@@ -15,3 +15,4 @@ Featuring two core pillars: V-Taper Physique Builder and Dopamine Reset (Reboot 
 - **Workout**: Exercise cards with form cues and RPE.
 - **Nutrition**: Meal plans and macro tracking.
 - **Reboot Mode**: Streak tracker and urge surfing tool (Protected with FLAG_SECURE).
+"# Vtaper" 
